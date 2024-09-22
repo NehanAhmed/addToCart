@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <nav>
+        <div class="left">
+            <h1>Home Styler</h1>
+        </div>
+        <div class="middle">
+            <p class="nav-items">Home </p>
+            <p class="nav-items">About</p>
+            <p class="nav-items">Contact</p>
+            <p class="nav-items">Service</p>
+        </div>
+        <div class="right">
+            <div class="icons">
+                <span class="fa fa-heart"></span>
+                <span class="fa-solid fa-cart-shopping" id="cartIcon"></span>
+                <span id="cart-num" class="cart-num"></span>
+            </div>
+        </div>
+    </nav>
+<section id="products">
+<div class="container">
+    <div class="header-cart">
+        <div class="titile">Products List</div>
+    </div>
+    <div class="list-product" id="list-product"> 
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSBuhR-PbpqA9fLqNzASItnqfVygbYl47ZQHNjMl1j2_Qxm6zqpH1tF1TOmw&s" alt="">
+            <h1 class="product-name" id="product-name">Chair</h1>
+            <div class="product-price" id="product-price">$120</div>
+            <button class="add-to-cart-btn">Add to cart</button>
+        </div>
+    </div>
+</div>
+</section>
+<div class="cart-tab">
+    <h1>Add to cart</h1>
+    <div class="list-cart" id="list-cart">
+        <div class="item">
+            
+        </div>
+    </div>
+    <div class="btn">
+        <button class="close" id="add-to-cart-close-btn"> Close</button>
+        <button class="checkout">Checkout</button>
+    </div>
+</div>
+    <script src="https://kit.fontawesome.com/0a02fbb60a.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
